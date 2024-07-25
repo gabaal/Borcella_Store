@@ -1,5 +1,6 @@
 import Collections from "@/components/Collections";
 import ProductList from "@/components/ProductList";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     <>
       <Image
         src="/banner.png"
-        alt="Banner"
+        alt="banner"
         width={2000}
         height={1000}
         className="w-screen"
@@ -17,3 +18,5 @@ export default function Home() {
     </>
   );
 }
+
+export const dynamic = "force-dynamic";
