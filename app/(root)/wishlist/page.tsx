@@ -68,7 +68,7 @@ const Wishlist = () => {
           <ProductCard
             key={product._id}
             product={product}
-            updateSignedInUser={updateSignedInUser}
+            // updateSignedInUser={updateSignedInUser}
           />
         ))}
       </div>
